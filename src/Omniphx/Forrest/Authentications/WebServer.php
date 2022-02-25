@@ -86,7 +86,7 @@ class WebServer extends Client implements WebServerInterface
         }
 
         $this->storeVersion();
-        $this->storeResources();
+        //$this->storeResources();
 
         // Return settings
         return $stateOptions;
